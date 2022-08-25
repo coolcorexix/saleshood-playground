@@ -1,0 +1,87 @@
+{
+    "buyer-sites": {
+      "COMMON": {
+        "NO_MATCHES_FOUND": "No matches found"
+      },
+      "ADD_NEW_BUYER_SITE_DIALOG": {
+        "BUYER_LOGO_FIND_LOGO_NO_RESULT": "There’s no result for “{{- SEARCH_WORD}}”",
+        "BUYER_LOGO_FIND_LOGO_OPTION_TEXT": "Find the logo of the company",
+        "BUYER_LOGO_LABEL": "Buyer logo",
+        "BUYER_LOGO_UPLOAD_IMAGE": "Upload image",
+        "CANCEL": "Cancel",
+        "CREATE": "Create",
+        "SAVE": "Save",
+        "TITLE": "Create Site",
+        "FROM_TEMPLATE": "From Template",
+        "TITLE_LABEL": "Title",
+        "TITLE_PLACEHOLDER": "Add site name",
+        "WElCOME_LABEL": "Welcome Message",
+        "WElCOME_PLACEHOLDER": "Input long text here",
+        "WElCOME_LIMIT_MESSAGE": "Welcome message should be less than 500 characters.",
+        "ADD_SITE_NAME": "Add site name",
+        "ADD_WELCOME_MESSAGE": "Add welcome message"
+      },
+      "SHARE_VIA_BUYER_SITE_DIALOG": {
+        "TITLE": "Share via Buyer Sites",
+        "BS_SELECT_PLACEHOLDER": "Select Buyer Sites",
+        "OR": "or",
+        "SHARE_ACTION": "Share",
+        "CREATE_NEW_ACTION": "Create new Site",
+        "NOTIFICATION": {
+          "SUCCESS_TITLE": "Success",
+          "SUCCESS_MESSAGE": "<b>{{- ASSET_NAME}}</b> has been shared to <b>{{- BS_NAME}}</b> successfully!",
+          "SUCCESS_MESSAGE_other": "<b>{{- count}} assets</b> have been shared to <b>{{- BS_NAME}}</b> successfully!"
+        }
+      },
+      "CREATE_SITE_FORM": {
+        "SITE_PRIVACY": "Site Privacy",
+        "PRIVATE": "Private",
+        "PUBLIC": "Public",
+        "PRIVATE_MSG_1": "Only approved contacts can access this buyer site.",
+        "PRIVATE_MSG_2": "Contacts from the following domains will be auto-approved",
+        "ADD_DOMAIN": "Add domain",
+        "INVALID_DOMAINS": "Invalid domains: {{- domains }}",
+        "PUBLIC_MSG_1": "Anyone can access buyer site.",
+        "COLLABORATION": "Contact Collaboration",
+        "COLLABORATION_MSG": "Allow contacts to see one another and collaborate."
+      },
+      "TEXT_EDITOR": {
+        "HEADING": {
+          "NORMAL": "Normal text",
+          "H1": "Heading 1",
+          "H2": "Heading 2",
+          "H3": "Heading 3"
+        },
+        "LINK": {
+          "TITLE": "Insert link",
+          "OK_TEXT": "Ok",
+          "CANCEL_TEXT": "Cancel",
+          "PLACEHOLDER": "Input URL here",
+          "ADD_URL": "Add URL",
+          "ERROR": "Not a valid URL"
+        },
+        "OPTIONS": {
+          "OPTIONS": "Table Options",
+          "INSERT_COL_RIGHT": "Insert column right",
+          "DELETE_COL": "Delete column",
+          "INSERT_ROW_BELOW": "Insert row below",
+          "DELETE_ROW": "Delete row",
+          "REMOVE_TABLE": "Remove table"
+        }
+      },
+      "SEARCH_BOX": {
+        "TEXT": "Search...",
+        "TEXT_NORMAL": "Search"
+      },
+      "VALIDATIONS": {
+        "ERROR_UPLOADING": "Error uploading",
+        "FIELD_REQUIRED": "This field is required",
+        "INVALID_EMAIL": "Invalid email",
+        "INVALID_LINK": "Invalid link",
+        "INVALID_PHONE": "Invalid phone",
+        "INVALID_TYPE_VIDEO": "Invalid file type, only support video file types",
+        "VIDEO_REQUIRED": "Please upload video"
+      }
+    }
+  }
+  
