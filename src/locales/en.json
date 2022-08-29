@@ -30,7 +30,11 @@
         "NOTIFICATION": {
           "SUCCESS_TITLE": "Success",
           "SUCCESS_MESSAGE": "<b>{{- ASSET_NAME}}</b> has been shared to <b>{{- BS_NAME}}</b> successfully!",
-          "SUCCESS_MESSAGE_other": "<b>{{- count}} assets</b> have been shared to <b>{{- BS_NAME}}</b> successfully!"
+          "SUCCESS_MESSAGE_other": "<b>{{- count}} assets</b> have been shared to <b>{{- BS_NAME}}</b> successfully!",
+          "INFO_TITLE": "Information",
+          "INFO_SHARED_MESSAGE": "<b>{{- BS_NAME}}</b> already has this Asset.",
+          "INFO_SHARED_MESSAGE_plural": "<b>{{- count}} assets</b> have already been shared to <b>{{- BS_NAME}}</b>.",
+          "INFO_SHARED_MIXED_MESSAGE": "<b>{{- successCount}} Assets</b>  has been shared to <b>{{- BS_NAME}}</b> successfully! <br/> <br/> <b>{{- failedCount}} Assets</b> have already been shared to <b>{{- BS_NAME}}</b>."
         }
       },
       "CREATE_SITE_FORM": {
