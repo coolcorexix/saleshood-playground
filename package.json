@@ -10,12 +10,16 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
+    "@saleshood/ui-kit": "git+ssh://git@bitbucket.org/saleshood/sh-ui-toolkit.git",
+    "antd": "4.21.7",
     "antd-icons": "0.1.0-alpha.1",
     "i18next": "^21.8.16",
     "i18next-browser-languagedetector": "^6.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^11.18.3",
+    "react-query": "4.0.0",
+    "react-web-component": "^2.0.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
