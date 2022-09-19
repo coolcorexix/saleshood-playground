@@ -1,18 +1,26 @@
 import { useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import { CreateBuyerSiteModal } from "@saleshood/ui-kit";
-import { Modal } from "antd";
+import { Modal, PageHeader } from "antd";
 import "antd/dist/antd.css";
 import { Dumb } from "./Dumb";
 import "./i18n/init";
 import "./App.css";
 
+import { QueryClient, QueryClientProvider } from "react-query";
 
-import { QueryClient, QueryClientProvider } from 'react-query';
+import "./index.css";
 
-
-import './index.css'
-
+const routes = [
+  {
+    path: "content",
+    breadcrumbName: "Content",
+  },
+  {
+    path: "archived",
+    breadcrumbName: "Archived",
+  },
+];
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -20,9 +28,9 @@ const queryClient = new QueryClient({
   },
 });
 
-
 function App() {
   const { t: buyerSitesT } = useTranslation("buyer-sites");
+  const { t: uiToolkitT } = useTranslation("uiToolkit");
   const infoMessage = (
     <Trans
       t={buyerSitesT}
@@ -34,9 +42,10 @@ function App() {
     />
   );
   return (
-    <QueryClientProvider contextSharing={true} client={queryClient}>
-        <Dumb />
-      </QueryClientProvider>
+    <div>
+      <div>{infoMessage}</div>
+      <div>{uiToolkitT('videoRecorder.title')}</div>
+    </div>
   );
 }
 

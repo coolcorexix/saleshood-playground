@@ -86,6 +86,30 @@
         "INVALID_TYPE_VIDEO": "Invalid file type, only support video file types",
         "VIDEO_REQUIRED": "Please upload video"
       }
+    },
+    "uiToolkit": {
+      "videoRecorder": {
+        "title": "Record",
+        "buttons": {
+          "start": "Start Recording",
+          "Pause": "Pause",
+          "Resume": "Resume",
+          "Retake": "Retake",
+          "Finish": "Finish"
+        },
+        "status": {
+          "Ready": "Ready",
+          "Starting": "Starting...",
+          "Recording": "Recording...",
+          "Paused": "Paused"
+        },
+        "retakeConfirm": {
+          "title": "Retake",
+          "description": "Do you want to retake?",
+          "ok": "OK",
+          "cancel": "cancel"
+        }
+      }
     }
   }
   
