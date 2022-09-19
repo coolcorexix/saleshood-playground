@@ -1,8 +1,24 @@
 import { useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
-import CloseOutlined from "@ant-design/icons/CloseOutlined";
+import { PageHeader } from 'antd';
+import "antd/dist/antd.css";
 import "./i18n/init";
 import "./App.css";
+
+const routes = [
+  {
+    path: 'index',
+    breadcrumbName: 'First-level Menu',
+  },
+  {
+    path: 'first',
+    breadcrumbName: 'Second-level Menu',
+  },
+  {
+    path: 'second',
+    breadcrumbName: 'Third-level Menu',
+  },
+];
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,12 +35,14 @@ function App() {
   );
 
   return (<div>
-    {infoMessage}
-    <div>
-    <button onClick={() => setCount(count +1)} >
-      +
-    </button>
-    </div>
+  <PageHeader
+    className="site-page-header"
+    title="Title"
+    breadcrumb={{
+      routes,
+    }}
+    subTitle="This is a subtitle"
+  />
 
   </div>)
 }
